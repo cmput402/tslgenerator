@@ -246,8 +246,8 @@ Property* parse_property( char* name, size_t length, boolean add_prop )
         return props[ tot_props++ ];
     }
 
-    printf( "\nThe property '%s' is not defined.\nQuitting\n\n", tmp_name );
-    exit( EXIT_FAILURE );
+    // printf( "\nThe property '%s' is not defined.\nQuitting\n\n", tmp_name );
+    // exit( EXIT_FAILURE );
 }
 
 
